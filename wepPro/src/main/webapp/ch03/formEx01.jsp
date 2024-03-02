@@ -10,7 +10,7 @@
  <h3>form요소(웹교재p133/JSP교재P74)</h3>
  <H4>http://localhost:<%=request.getServerPort() %><%=request.getRequestURI() %></H4>
  <hr/>
- <form method="post" action="ok.jsp">
+ <form method="get" action="ok.jsp">
   <ul>
  	<li>이름:<input type="text"  name="userName"  id="userName" required="required" value="dummy홍"/></li>
  	<li>비밀번호:<input type="password" name="userPwd"   id="userPwd"  required="required" value="1234"/></li>
