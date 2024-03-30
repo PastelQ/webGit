@@ -1,4 +1,4 @@
-package ch17;
+package ch17_Servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;

@@ -18,14 +18,14 @@ if(sessionObj  != null){
 %>
 <%--  로그인 후   메뉴  ----------------------------------------- --%>
  <ul>
-  <li><%=loginId %>님  <a href="./ch10/logout.jsp">로그아웃</a></li>
+  <li><%=loginId %>님  <a href="./ch10_session/logout.jsp">로그아웃</a></li>
  </ul>
 <% }else{ %>
 <%--  로그인 전   메뉴  ----------------------------------------- --%>
 <ul>
   <li>회원가입=>회원가입폼요청</li>
   <li>
-  	<a href="<%=request.getContextPath() %>/ch10/loginForm.jsp">로그인(loginForm.jsp이동)=>로그인폼요청</a>	
+  	<a href="<%=request.getContextPath() %>/ch10_session/loginForm.jsp">로그인(loginForm.jsp이동)=>로그인폼요청</a>	
   		a href="/login.do"로 변경할 예정(p608)
   </li>
 </ul>
